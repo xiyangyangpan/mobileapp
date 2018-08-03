@@ -117,7 +117,7 @@ drupalgap.settings.locale = {
 drupalgap.settings.title = 'Alchemy';
  
 // App Front Page
-drupalgap.settings.front = 'dashboard';
+drupalgap.settings.front = 'Alchemy';
 
 // Theme
 drupalgap.settings.theme = 'easystreet3';
