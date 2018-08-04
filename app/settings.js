@@ -120,7 +120,8 @@ drupalgap.settings.title = 'Alchemy';
 drupalgap.settings.front = 'Alchemy';
 
 // Theme
-drupalgap.settings.theme = 'easystreet3';
+#drupalgap.settings.theme = 'easystreet3';
+drupalgap.settings.theme = 'my_theme';
 
 // Logo
 drupalgap.settings.logo = 'themes/easystreet3/images/drupalgap.jpg';
@@ -258,6 +259,20 @@ drupalgap.settings.menus['main_menu'] = {
  * Blocks - http://drupalgap.org/node/83 |
  ****************************************/
 drupalgap.settings.blocks = {}; // Do not remove this line.
+
+// The my_theme blocks.
+drupalgap.settings.blocks.my_theme = {
+  header: {
+    title: {},
+    main_menu: {}
+  },
+  content: {
+    main: {}
+  },
+  footer: {
+    powered_by: {}
+  }
+};
 
 // Easy Street 3 Theme Blocks
 drupalgap.settings.blocks.easystreet3 = {
