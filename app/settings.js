@@ -31,14 +31,12 @@ Drupal.settings.language_default = 'und';
 
 // Entity Caching
 Drupal.settings.cache.entity = {
-
   /* Globals (will be used if not overwritten below) */
   enabled: false,
   expiration: 60, // # of seconds to cache, set to 0 to cache forever
 
   /* Entity types */
   entity_types: {
-
     /* Comments */
     /*comment: {
      bundles: {}
@@ -51,21 +49,18 @@ Drupal.settings.cache.entity = {
 
     // Nodes
     /*node: {
-
       // Node Globals (will be used if not overwritten below)
       enabled: true,
       expiration: 120,
 
       // Content types (aka bundles)
       bundles: {
-
         article: {
           expiration: 3600
         },
         page: {
           enabled: false
         }
-
       }
     },*/
 
@@ -83,13 +78,10 @@ Drupal.settings.cache.entity = {
     /*user: {
      bundles: {}
      }*/
-
   }
-
 };
 
 /* Views Caching */
-
 Drupal.settings.cache.views = {
   enabled: false,
   expiration: 3600
@@ -115,7 +107,7 @@ drupalgap.settings.locale = {
 
 // App Title
 drupalgap.settings.title = 'Alchemy';
- 
+
 // App Front Page
 drupalgap.settings.front = 'Alchemy';
 
@@ -264,13 +256,13 @@ drupalgap.settings.blocks = {}; // Do not remove this line.
 drupalgap.settings.blocks.my_theme = {
   header: {
     title: {},
-    main_menu: {}
+    main_menu: { }
   },
   content: {
-    main: {}
+    main: { }
   },
   footer: {
-    powered_by: {}
+    powered_by: { }
   }
 };
 
