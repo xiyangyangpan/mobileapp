@@ -112,7 +112,7 @@ drupalgap.settings.title = 'Alchemy';
 drupalgap.settings.front = 'Alchemy';
 
 // Theme
-#drupalgap.settings.theme = 'easystreet3';
+//drupalgap.settings.theme = 'easystreet3';
 drupalgap.settings.theme = 'my_theme';
 
 // Logo
