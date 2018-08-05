@@ -255,10 +255,28 @@ drupalgap.settings.blocks = {}; // Do not remove this line.
 // The my_theme blocks.
 drupalgap.settings.blocks.my_theme = {
   header: {
-    title: {},
+    user_menu_anonymous: {
+      roles: {
+        value: ['anonymous user'],
+        mode: 'include',
+      }
+    },
+    user_menu_authenticated: {
+      roles: {
+        value: ['authenticated user'],
+        mode: 'include',
+      }
+    },
     main_menu: { }
   },
+  sub_header: {
+    title: { }
+  },
+  navigation: {
+    primary_local_tasks: { }
+  },
   content: {
+    messages: { },
     main: { }
   },
   footer: {
